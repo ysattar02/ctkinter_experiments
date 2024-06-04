@@ -14,7 +14,7 @@ def get_weather_info(zipcode):
     running = True
     while running:
         base_url = 'http://api.openweathermap.org/data/2.5/weather?q='
-        api_key = '55592219da64379c5a1872dccb250590'
+        api_key = ''
         city_name = ""
         complete_url = f'{base_url}{city_name},{zipcode}&appid={api_key}'
         print(complete_url)
